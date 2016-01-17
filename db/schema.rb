@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160117181712) do
+ActiveRecord::Schema.define(version: 20160117212001) do
 
   create_table "payola_affiliates", force: :cascade do |t|
     t.string   "code"
