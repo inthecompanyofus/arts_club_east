@@ -35,7 +35,7 @@ padding-bottom:5px;
 width: 50%;
 }
 
-.centralize {
+.centralised {
   text-align: center;
 }
 
@@ -43,6 +43,17 @@ h1 {
 font-size: 4.0em;
 font-weight: 900;
 }
+
+h2 {
+font-weight: 900;
+font-size: 3.0em;
+}
+
+p
+{
+font-size: 1.3em;
+font-weight: 900;
+} 
 
 .column {
   @extend .col-md-6;
