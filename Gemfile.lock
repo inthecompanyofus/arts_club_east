@@ -117,6 +117,7 @@ GEM
       activesupport (>= 4.1.0)
     high_voltage (2.4.0)
     hitimes (1.2.3)
+    honeybadger (2.3.3)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
     hub (1.12.4)
@@ -258,6 +259,7 @@ DEPENDENCIES
   devise
   gibbon
   high_voltage
+  honeybadger (~> 2.0)
   hub
   jbuilder (~> 2.0)
   jquery-rails

@@ -29,5 +29,5 @@ group :development do
 end
 group :production do
   gem 'puma'
-  gem 'better_errors'
+  gem 'honeybadger', '~> 2.0'
 end
