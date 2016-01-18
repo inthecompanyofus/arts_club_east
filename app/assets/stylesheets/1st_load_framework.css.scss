@@ -28,6 +28,13 @@ padding-bottom:5px;
 width: 50%;
 }
 
+.line {
+border-bottom: 2px solid black;
+margin-top: 20px;
+/* paddin-bottom: 20px; */
+margin-bottom: 20px;
+}
+
 
 .btn{
   margin-bottom: 10px;
@@ -62,10 +69,10 @@ p
 {
 font-weight: 300;
 text-transform: none;
-font-size: 1.8em;
-line-height: 1.8em;
+font-size: 1.6em;
+line-height: 1.4em;
 word-wrap: normal;
-word-spacing:normal;
+word-spacing: normal;
 } 
 
 .column {
