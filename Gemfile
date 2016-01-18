@@ -8,6 +8,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sprockets-rails', '~>2.3.3'
+gem 'honeybadger', '~> 2.0'
 
 group :development, :test do
   gem 'byebug'
@@ -29,5 +30,4 @@ group :development do
 end
 group :production do
   gem 'puma'
-  gem 'honeybadger', '~> 2.0'
 end
