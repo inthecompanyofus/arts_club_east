@@ -3,9 +3,20 @@
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,100,100italic,300,300italic,400italic,600italic,700,700italic,600);
 
+
+
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   font-family: 'Josefin Slab', serif;
   text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.78);
 }
 
 // make all images responsive by default
@@ -98,7 +109,6 @@ word-spacing: normal;
 // to make views framework-neutral
 main {
   @extend .container;
-  background-color: #fff;
   padding-bottom: 80px;
   width: 90%;
   margin-top: 51px; // accommodate the navbar
