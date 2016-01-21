@@ -19,7 +19,6 @@ gem 'administrate'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'gibbon'
-gem 'high_voltage'
 gem 'payola-payments'
 gem 'sucker_punch'
 group :development do

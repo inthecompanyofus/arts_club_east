@@ -1,0 +1,21 @@
+<% content_for :title do %>Gallery<% end %>
+<h3>Gallery</h3>
+<ul class="rslides">
+  <li> <%= image_tag "01.jpg" %> </li>
+  <li> <%= image_tag "02.jpg" %> </li>
+  <li> <%= image_tag "03.jpg" %> </li>
+  <li> <%= image_tag "06.jpg" %> </li>
+  <li> <%= image_tag "08.jpg" %> </li>
+  <li> <%= image_tag "09.jpg" %> </li>
+  <li> <%= image_tag "10.jpg" %> </li>
+  <li> <%= image_tag "12.jpg" %> </li>
+  <li> <%= image_tag "13.jpg" %> </li>
+  <li> <%= image_tag "15.jpg" %> </li>
+  <li> <%= image_tag "16.jpg" %> </li>
+</ul>
+
+<script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+</script>
